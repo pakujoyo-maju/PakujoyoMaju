@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pakujoyo Maju</title>
+  
+ 
+  <!-- feather icon -->
+   <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="loading">
+      <div class="logo"></div>
+      <div class="nama">
+         <h1>Pakujoyo <span>Maju</span></h1>
+      </div>
+  </div>
+  <!-- navbar start -->
+  <nav class="navbar">
+    <a href="index.html" class="navbar-logo">Pakujoyo <span>Maju</span></a>
+
+    <div class="navbar-nav">
+      <a href="index.html">Gallery</a>
+      <a href="menu.html">Menu</a>
+      <a href="kontak.html">Kontak</a>
+    </div>
+
+    <div class="navbar-extra">
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+
+    </div>
+    
+     <!-- pencarian -->
+ 
+    
+  </nav>
+  <!-- navbar end -->
+
+  <!-- hero section start-->
+   <section class="hero">
+    <main class="content">
+      <h1>Kesempurnaan Rasa Dimulai dari Biji Terbaik</h1>
+      <p>Kopi artisan yang diproses alami dari biji pilihan petani lokal.
+        <br> Dengan hati, menghadirkan aroma bumi Indonesia dalam setiap tegukan.</p>
+      <a href="menu.html" class="cta">Beli sekarang</a>
+    </main>
+   </section>
+   <!-- hero section end-->
+
+   <!-- gallery mulai -->
+  <div class="menu-tabs">
+    <button class="menu-btn" id="btnFoto">Foto</button>
+    <button class="menu-btn" id="btnVideo">Video</button>
+  </div>
+ 
+
+
+   <div id="fotoSection" class="section hidden">
+        <h2>Foto</h2>
+        <div class="gallery">
+            <img src="img/1.jpg" alt="gambar-real" class="zoomable">
+            <img src="img/1.jpg" alt="gambar-real" class="zoomable">
+            <img src="img/1.jpg" alt="gambar-real" class="zoomable">
+        </div>
+    </div>
+
+    <div id="videoSection" class="section hidden">
+        <h2>Video</h2>
+        <div class="gallery">
+          <video class="zoom-video" muted playsinline>
+            <source src="video/contoh.mp4" type="video/mp4">
+          </video>
+          <video class="zoom-video" muted playsinline>
+            <source src="video/contoh.mp4" type="video/mp4">
+          </video>
+        </div>
+    </div>
+   <!-- gallery end-->
+    <!-- footer start -->
+   <footer class="footer">
+     <div class="footer-container">
+
+       <div class="footer-logo">
+         <h2>Pakujoyo Maju</h2>
+         <p>Produsen biji kopi pilihan — Arabika & Robusta berkualitas, langsung dari petani lokal.</p>
+       </div>
+
+       <div class="footer-links">
+         <h3>Menu</h3>
+         <ul>
+           <li><a href="index.html">Gallery</a></li>
+           <li><a href="menu.html">Menu</a></li>
+           <li><a href="kontak.html">Kontak</a></li>
+         </ul>
+       </div>
+
+       <div class="footer-contact">
+         <h3>Kontak</h3>
+         <p>Email: pakujoyomaju@example.com</p>
+         <p>WhatsApp: 0812-3456-7890</p>
+         <p>Lokasi: Jawa Timur</p>
+       </div>
+
+       <div class="footer-social">
+         <h3>Sosial Media</h3>
+         <ul>
+           <li><a href="#">Instagram</a></li>
+           <li><a href="#">TikTok</a></li>
+           <li><a href="#">Shopee</a></li>
+         </ul>
+       </div>
+
+     </div>
+
+     <div class="footer-bottom">
+       <p>© 2025 Pakujoyo Maju — Semua Hak Dilindungi.</p>
+     </div>
+   </footer>
+   <!-- footer end -->
+
+
+
+   <!-- feather icon -->
+  <script>
+    feather.replace();
+  </script>
+
+  <!-- My javascript -->
+   <script src="js/gabungan.js"></script>
+  <!-- img -->
+  <div id="imgModal" class="img-modal">
+    <span class="img-close">&times;</span>
+    <img id="imgPreview" class="img-modal-content">
+  </div>
+  <div id="videoModal" class="video-modal">
+    <span class="video-close">&times;</span>
+    <video id="videoPreview" controls></video>
+  </div>
+
+
+</body>
+</html>
